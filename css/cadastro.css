@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background: linear-gradient(90deg, #4C1E4F 0%, #FFE7D2 150%);
+}
+
+/*Estilo do cabeçalho e da seção um*/
+.secao_inicial{
+    /*background-color: #FFE7D2;*/
+    width: 95%;      
+    margin: 15px 50px 15px;    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper{
+    /*background-color: #FFE7D2;*/
+    background: linear-gradient(100deg, #FFE7D2 0%, #4C1E4F 150%);
+    border-radius: 15px; 
+    height: 100px;  
+    width: 95%;       
+    margin: 15px 50px 15px;   
+}
+
+#link_secoes{
+    /*background-color: cadetblue;*/
+    margin: auto;     
+}
+#link_secoes > a{
+    
+    padding: 60px;
+    font-family: "nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e0f30;
+    margin-right: 80px;
+}
+#link_secoes > a:hover{
+    text-decoration: underline;
+    
+}
+.botoes{
+    font-family: "Lexend Deca", sans-serif;
+    color: #fff;
+    background-color: #4C1E4F;
+    padding: 10px 22px;
+    border-radius: 15px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+    margin-right: 10px;
+}
+.botoes:hover {
+    opacity: 0.8;    
+}
+
+.titulos{
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 40px;
+    color: #2e0f30
+}
+
+/*Estilo da seção cadastro*/
+
+.secao_cadastro{
+    background-color: #FFE7D2;
+    background: linear-gradient(100deg, #FFE7D2 0%, #4C1E4F 150%);           
+    border-radius: 15px;
+    width: 95%;
+    height: 700px;        
+    margin: 15px 50px 15px;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp_cadastro {    
+    width: 45%;    
+}
+
+.inp_cadastro > input{
+    border-radius: 15px; 
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;    
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #4C1E4F;
+    text-align: center;
+    font-size: 16px;    
+}
+
+.btn_rodape > button{
+    margin: auto;    
+}
+
+.secao_final{
+    background: linear-gradient(100deg, #FFE7D2 0%, #4C1E4F 150%);
+    border-radius: 15px; 
+    height: 50px;  
+    width: 90%;       
+    margin-left: 100px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+.secao_final > p{
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    color: #2e0f30; 
+    
+}

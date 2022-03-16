@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadatro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <div class="secao_inicial">
+        <header>
+            <nav class="wrapper flex animate_inicial_img">
+                <img src="../img/logo.png" alt="Logo da empresa Mundo das Letras.">
+                <div id="link_secoes">
+                    <a href="../index.html">Home</a>
+                    <a href="#">Login</a>
+                </div>
+            </nav>
+        </header>
+        <section class="titulos secao_cadastro animate_final">
+            <h2 id="Conosco">Login</h2>
+            <div class="centralizar">
+                <div class="inp_cadastro">                    
+                    <input id="inp_txt_email" type="email" placeholder="e-mail">
+                    <input id="inp_txt_senha" type="password" placeholder="senha">
+                </div>
+                <button class="botoes" type="button" onclick="Enviar()">Enviar</button>
+            </div>
+        </section>
+    </div>
+
+    <footer class="secao_final">
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script> <!--Animação da página do site greensock Scrolltrigger-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
